@@ -37,8 +37,8 @@ a {
 }
 
 .btn1 span{
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
     transform: translateY(6%);
     float: right;
     border-radius: 50px;
@@ -72,13 +72,13 @@ a {
     height: 800px; 
 }*/
 
-.cock {
+.anim1 {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
 }
   
-.cock video {
-    height: 1080px;
+.anim1 video {
+    height: 900px;
     width: 1600px;
     object-fit: cover;
 }
@@ -90,7 +90,7 @@ a {
 }
 
 @media only screen and (max-width:600px) {
-    .cock video{
+    .anim1 video{
         height: 1080px;
         width: 600px;
     }
