@@ -30,9 +30,10 @@ a {
 }
 
 .logo h1{
+    font-size: 25px;
     color: #204b45;
     display: inline-block;
-    transform: translateY(-37.5%);
+    transform: translateY(-50%);
     padding-left: 10px;
 }
 
@@ -89,28 +90,22 @@ a {
     background-color: white;
 }
 
-@media only screen and (max-width:600px) {
-    .anim1 video{
-        height: 1080px;
-        width: 600px;
-    }
+.colors h2{
+    text-align: center;
+    color: #204b45; 
+    font-size: 40px;
+    margin-top: 2em;
+}
 
-    .logo{
-        visibility: hidden;
-    }
-
-    .btn1{
-        visibility: hidden;
-    }
-
-    .land-head{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .menu{
-        visibility: none;
-    }
+.anim2 {
+    text-align: center;
+    margin-top: 200px;
+}
+  
+.anim2 video {
+    height: 900px;
+    width: 1600px;
+    object-fit: cover;
 }
 
 /*main content end*/
